@@ -1,9 +1,16 @@
 html{background: #77d5fb;}
 body{background: transparent url('fon_nkar.png') top center no-repeat;
 width: 100%; height: 100%;
-margin: 0 0;}
+margin: 0 0;
 
-
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:  center 48px;  
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; 
+}
 #navigation_container {
 	margin: 0 auto;
 	width: 900px;
@@ -35,9 +42,14 @@ margin: 0 0;}
         font-style: italic;
 }
 
-#navigation li.active a {
+#sidebar li a {
+        text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+        display: block;
+        text-decoration: none;
+        color: #f0f0f0;
+        font-size: 1.2em;
+        line-height: 32px;
 }
-
 
 .rectangle {
    background: #e5592e;
@@ -107,39 +119,34 @@ h2{
 	text-shadow: 0 2px 1px rgba(0,0,0,0.5);
 	text-decoration: none;
         color: #f0f0f0;
-        font-size: 2.6em;
+        font-size: 2em;
 }
+
  aside{
     
-    text-shadow: 0 2px 1px rgba(0,0,0,0.5);
-    display: block;
-    text-decoration: none;
-    color: #f0f0f0;
-    font-size: 1em;
-    margin: 0;
-    line-height: 28px;
     float:left;
+    margin-left:6%;
+    margin-bottom:6%;
     border-color: #d9542b transparent transparent;
     border-style:solid;
     border-width:10px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color:#d9542b;
-    height:article;
-    width :article;
+    
 }
 
 article{
-    margin-left:8%;
+    margin-left:4%;
     border-color: #d9542b transparent transparent;
     border-style:solid;
     border-width:10px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color:#d9542b;
     float:left;
     text-align:justify;
     width:60%;
     color: #f0f0f0;
     font-size: 0.8em;
-    line-height: 12px;
+    line-height: 18px;
      
 }
